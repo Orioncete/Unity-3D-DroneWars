@@ -11,9 +11,15 @@ Los drones se mueven en rutas aleatorias que se renuevan cada 4 segundos y ataca
 
 El movimiento del drone se controla con las flechas de los cursores, y el disparo con A,S,D y W dependiendo de la dirección en que se desee disparar.
 
-### Como arrancarlo ###
+### Instrucciones de uso ###
 
-Descargar la carpeta correspondiente y ejecutar el archivo index.html en un navegador compatible con Unity3D
+## Para jugar ##
+
+Instalar la carpeta 'DroneWarsWebGL' en un servidor y ejecutar el archivo index.html contenido en ella.
+
+## Para edición ##
+
+Abrir la carpeta 'DroneWarsUnity3D' como proyecto de Unity.
 
 ### Assets ###
 
