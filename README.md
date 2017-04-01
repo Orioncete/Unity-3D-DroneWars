@@ -29,4 +29,4 @@ Abrir la carpeta 'DroneWarsUnity3D' como proyecto de Unity.
 
 ## Who do I talk to? ##
 
-* uliaoth@htomail.com
+* uliaoth@hotmail.com
