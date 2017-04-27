@@ -66,7 +66,10 @@ public class DroneAttacker : MonoBehaviour {
                     }
                 }
                 this.objetivoActual = this.objetivos[indexObjetivo]; // Fijamos el GameObject elegido en el FOR como objetivo
-                this.transform.LookAt(this.objetivoActual.transform); // Enfocamos el transform de nuestro Drone hacia el objetivo
+                if (this.objetivoActual) // Si existe un objetivo actual
+                {
+                    this.transform.LookAt(this.objetivoActual.transform); // Enfocamos el transform de nuestro Drone hacia el objetivo
+                }
                 this.lanzadera.transform.position = this.transform.position; // Centramos la posicion y...
                 this.lanzadera.transform.rotation = this.transform.rotation; // ... angulo de nuestro disparador
                 this.lanzadera.transform.Rotate(Vector3.up * Random.Range(22.5f, -22.5f)); // Añadimos un angulo de disparo aleatorio para no acertar siempre

@@ -5,7 +5,7 @@ using System.Collections;
 public class Navigator : MonoBehaviour {
 
     public Transform target;
-    private NavMeshAgent agent;
+    private UnityEngine.AI.NavMeshAgent agent;
 
     private float dimensionAncho;
     private float dimensionLargo;
@@ -15,7 +15,7 @@ public class Navigator : MonoBehaviour {
     public GameObject terreno;
 
 	void Start () {
-        this.agent = this.transform.GetComponent<NavMeshAgent>();
+        this.agent = this.transform.GetComponent<UnityEngine.AI.NavMeshAgent>();
         this.dimensionAncho = this.terreno.GetComponent<Renderer>().bounds.size.x;
         this.dimensionLargo = this.terreno.GetComponent<Renderer>().bounds.size.z;
 	}
